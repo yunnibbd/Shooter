@@ -113,6 +113,7 @@ void AShooterCharacter::FireWeapon()
 				);
 			}
 
+
 			UParticleSystemComponent* Beam = UGameplayStatics::SpawnEmitterAtLocation(
 				GetWorld(),
 				BeamParticles,
